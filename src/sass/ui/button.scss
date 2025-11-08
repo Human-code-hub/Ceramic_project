@@ -1,0 +1,10 @@
+@use "/src/sass/base/mixin.scss" as *;
+
+.btn-defolt {
+    @include button;
+    width: 230px;
+    height: 50px;
+    font-size: 20px;
+}
+
+

@@ -1,3 +1,4 @@
+@use "/src/sass/base/variable.scss" as *;
 h1,
 h2,
 h3,
@@ -25,6 +26,9 @@ h5 {
 	font-weight: inherit;
 }
 
+body {
+	background-color: $light;
+}
 img {
 	display: block;
 	max-inline-size: 100%;
@@ -48,4 +52,8 @@ img {
 html {
 	font-family: "Barlow", sans-serif;
 	scroll-behavior: smooth;
+}
+.container {
+	width: 100%;
+	padding: 0 10px;
 }

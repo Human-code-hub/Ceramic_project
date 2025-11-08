@@ -1,0 +1,15 @@
+.promo {
+    padding-top: 50px;
+    &__title {
+        margin-block-start: 50px;
+        padding-inline:  5px;
+    }
+    &__img {
+        margin: 40px auto 0 auto;
+        width: 270px;
+        height: 377px;
+    }
+    &__btn {
+        margin: 18px auto 0 auto;
+    }
+}
